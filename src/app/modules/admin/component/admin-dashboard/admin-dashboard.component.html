@@ -1,0 +1,21 @@
+<div class="dashboard-container">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2 class="sidebar-title">Admin Dashboard</h2>
+    <ul class="sidebar-nav">
+      <li><a routerLink="/admin/post-car" class="nav-link">Post-Cars</a></li>
+      <li><a routerLink="/admin/bookings" class="nav-link">Bookings</a></li>
+      <li><a routerLink="/admin/logout" class="nav-link">Logout</a></li>
+      
+    </ul>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <div class="header">
+      <h1>Welcome to the Admin Dashboard</h1>
+      <p>Manage users, car listings, view orders, and more.</p>
+    </div>
+    
+   <router-outlet></router-outlet>
+   

@@ -1,0 +1,22 @@
+
+<div class="dashboard-container">
+    <div class="sidebar">
+      <h2 class="sidebar-title">Customer Dashboard</h2>
+      <ul class="sidebar-nav">
+        
+        <li><a routerLink="/customer/searchcar" class="nav-link">SearchCar</a></li>
+        <li><a routerLink="/customer/bookings" class="nav-link">Book-Cars</a></li>
+        <li><a routerLink="/customer/logout" class="nav-link">signout</a></li>
+       
+      </ul>
+    </div>
+  
+    <div class="content">
+      <div class="header">
+        <h1>Welcome to the Car Rental Dashboard</h1>
+        <p>Manage your car listings, view available cars, and contact us.</p>
+        <img src="https://northfleet.in/wp-content/uploads/2023/12/Best-Family-Cars-in-India-1024x576.webp">
+      </div>
+      <router-outlet></router-outlet>
+  
+    
